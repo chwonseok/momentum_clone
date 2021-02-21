@@ -51,6 +51,7 @@ body {
 .js-list-toDo > li > span {
   color: white;
 }
+
 .form,
 .greeting {
   display: none;
