@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
-const clockContainer = document.querySelector('.js-clock'),
-  clockTitle = clockContainer.querySelector('h1');
+const clockContainer = document.querySelector(".js-clock"),
+  clockTitle = clockContainer.querySelector(".js-clock-span");
 
 const displayTime = function () {
   const date = new Date();

@@ -8,23 +8,33 @@
     <title>To-do List</title>
   </head>
   <body>
-    <!-- Clock -->
-    <div class="js-clock">
-      <h1 class="letterClr">00:00</h1>
+    <div>
+      <div class="top"></div>
+      <!-- Clock -->
+      <div class="middle">
+        <div class="middle-left"></div>
+        <div class="middle-center">
+          <div class="js-clock">
+            <span class="js-clock-span letterClr">00:00</span>
+          </div>
+          <!-- Name of Form -->
+          <div class="form-user-box">
+            <form class="js-form-user form">
+              <input type="text" placeholder="What is your name?" />
+            </form>
+            <span class="js-form-greeting greeting"></span>
+          </div>
+          <!-- To-Do List -->
+          <form class="js-form-toDo">
+            <input type="text" placeholder="What are you up to?" />
+          </form>
+          <ul class="js-list-toDo"></ul>
+        </div>
+      </div>
+      <div class="middle-right">
+        <span class="js-weather letterClr"></span>
+      </div>
     </div>
-
-    <!-- Name of Form -->
-    <form class="js-form-user form">
-      <input type="text" placeholder="What is your name?" />
-    </form>
-    <h4 class="js-form-greeting greeting"></h4>
-
-    <!-- To-Do List -->
-    <form class="js-form-toDo">
-      <input type="text" placeholder="What are you up to?" />
-    </form>
-    <ul class="js-list-toDo"></ul>
-    <span class="js-weather letterClr"></span>
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
     <script src="todo.js"></script>
